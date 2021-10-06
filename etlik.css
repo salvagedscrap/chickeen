@@ -1,0 +1,79 @@
+.banner_img {
+    width: 100%;
+    height: 30rem;
+    display: block;
+    overflow: hidden;
+}
+#banner_img {
+    width: 100%;
+    display: block;
+   
+}
+
+.content{
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+.description{
+    display: block;
+    width: 70%;
+   font-size: 1.2rem;
+    margin: auto;
+}
+
+.description h1,
+p{
+    padding:2rem;
+    text-align: justify;
+}
+
+/*cards*/
+
+.cards{
+    margin: 5rem auto 0 auto;
+    display: block;
+    width: 90%;
+    align-items: center;
+    vertical-align: center;
+    padding-bottom: 10rem;
+}
+.card{
+    display: inline-block;
+  
+    width: 30%;
+    height: 28rem;
+    padding-bottom: 2rem;
+    margin: 2rem 1rem;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    opacity: 0.6;
+    transition: box-shadow 0.3s, opacity 0.5s;
+    
+
+
+}
+.card:hover{
+    box-shadow: 2px 4px 4px 0px rgb(148, 147, 147);
+    opacity: 1;
+}
+
+.card_img img{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.card h3{
+    margin: auto;
+    width: 80%;
+    padding: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+    border-top: 1px solid rgba(211, 211, 211, 0.37);
+}
